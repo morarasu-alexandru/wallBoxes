@@ -38,7 +38,7 @@ gulp.task('compileJs', () => {
     return gulp.src('app/js/**/*.js')
         .pipe(sourcemaps.init())
         .pipe(babel({
-            presets: ['@babel/env']
+            plugins: ['@babel/transform-runtime']
         }))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('temp/js'))
