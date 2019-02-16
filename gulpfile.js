@@ -16,10 +16,13 @@ gulp.task('startServer', () => {
     });
 
     gulp.watch('app/scss/**/*.scss', gulp.series('compileScss'));
-    gulp.watch('app/js/**/*.js', gulp.series('compileJs'));
+    gulp.watch('app/js/**/*.js').on('change', () => {
+        gulp.series('compileJs')();
+        browserSync.reload();
+    });
     gulp.watch(staticFiles, gulp.series('compileStatics'));
 
-    gulp.watch(['app/**/*', '!app/**/*.scss']).on('change', browserSync.reload);
+    gulp.watch(['app/**/*', '!app/**/*.scss', '!app/js/**/*.js']).on('change', browserSync.reload);
 });
 
 gulp.task('compileStatics', () => {
