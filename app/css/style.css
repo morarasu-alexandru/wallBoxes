@@ -1,2 +1,153 @@
 body {
-  background: #a9a9a9; }
+  background: #969e9e; }
+
+.variantList {
+  list-style: none;
+  padding: 0; }
+
+.noDisplay {
+  display: none; }
+
+.title {
+  text-align: center; }
+
+.wall {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  max-width: 720px;
+  max-height: 320px;
+  grid-template-rows: repeat(4, 80px);
+  grid-template-columns: repeat(9, 80px);
+  margin: 0 auto; }
+
+.box1 {
+  border-radius: 6px;
+  background: #ffe1bb; }
+
+.box2 {
+  background: none; }
+
+.box3 {
+  border-radius: 6px;
+  background: #3e4b6e; }
+
+.box4 {
+  background: none; }
+
+.box5 {
+  border-radius: 6px;
+  background: #517dae; }
+
+.box6 {
+  border-radius: 6px;
+  background: #ffe1bb; }
+
+.box7 {
+  background: none; }
+
+.box8 {
+  background: none; }
+
+.box9 {
+  border-radius: 6px;
+  background: #1d2043; }
+
+.box10 {
+  background: none; }
+
+.box11 {
+  border-radius: 6px;
+  background: #517dae; }
+
+.box12 {
+  border-radius: 6px;
+  background: #ffe1bb; }
+
+.box13 {
+  border-radius: 6px;
+  background: #9cacbc; }
+
+.box14 {
+  border-radius: 6px;
+  background: #1d2043; }
+
+.box15 {
+  background: none; }
+
+.box16 {
+  border-radius: 6px;
+  background: #517dae; }
+
+.box17 {
+  border-radius: 6px;
+  background: #3e4b6e; }
+
+.box18 {
+  background: none; }
+
+.box19 {
+  border-radius: 6px;
+  background: #9cacbc; }
+
+.box20 {
+  border-radius: 6px;
+  background: #1d2043; }
+
+.box21 {
+  background: none; }
+
+.box22 {
+  border-radius: 6px;
+  background: #3e4b6e; }
+
+.box23 {
+  border-radius: 6px;
+  background: #517dae; }
+
+.box24 {
+  border-radius: 6px;
+  background: #9cacbc; }
+
+.box25 {
+  border-radius: 6px;
+  background: #1d2043; }
+
+.box26 {
+  border-radius: 6px;
+  background: #ffe1bb; }
+
+.box27 {
+  background: none; }
+
+.box28 {
+  border-radius: 6px;
+  background: #3e4b6e; }
+
+.box29 {
+  background: none; }
+
+.box30 {
+  border-radius: 6px;
+  background: #517dae; }
+
+.box31 {
+  border-radius: 6px;
+  background: #ffe1bb; }
+
+.box32 {
+  background: none; }
+
+.box33 {
+  border-radius: 6px;
+  background: #3e4b6e; }
+
+.box34 {
+  background: none; }
+
+.box35 {
+  border-radius: 6px;
+  background: #9cacbc; }
+
+.box36 {
+  background: none; }
