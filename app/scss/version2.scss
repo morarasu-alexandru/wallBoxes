@@ -1,0 +1,49 @@
+.version2 {
+	.wall {
+		display: flex;
+		flex-flow: column;
+	}
+	
+	.row {
+		display: grid;
+		grid-template-rows: repeat(1, 50px);
+		grid-template-columns: repeat(9, 50px);
+	}
+	
+	.box {border-radius: 6px; }
+	
+	.row1 {
+		.box1 { background: #ffe1bb; }
+		.box3 { background: #3e4b6e; }
+		.box5 { background: #517dae; }
+		.box6 { background: #ffe1bb; }
+		.box9 { background: #1d2043; }
+	}
+	
+	.row2 {
+		.box2 { background: #517dae; }
+		.box3 { background: #ffe1bb; }
+		.box4 { background: #9cacbc; }
+		.box5 { background: #1d2043; }
+		.box7 { background: #517dae; }
+		.box8 { background: #3e4b6e; }
+	}
+	
+	.row3 {
+		.box1 { background: #9cacbc; }
+		.box2 { background: #1d2043; }
+		.box4 { background: #3e4b6e; }
+		.box5 { background: #517dae; }
+		.box6 { background: #9cacbc; }
+		.box7 { background: #1d2043; }
+		.box8 { background: #ffe1bb; }
+	}
+	
+	.row4 {
+		.box1 {background: #3e4b6e; }
+		.box3 {background: #517dae; }
+		.box4 {background: #ffe1bb; }
+		.box6 {background: #3e4b6e; }
+		.box8 {background: #9cacbc; }
+	}
+}
